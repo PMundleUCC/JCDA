@@ -265,7 +265,7 @@ img {
     color: var(--white);
     background-image:
         linear-gradient(to right, rgba(3, 35, 24, 0.95), rgba(3, 35, 24, 0.4)),
-        url("../images/JCDA-community.png");
+    background-image: url("../images/JCDA-community.png");
     background-size: cover;
     background-position: center;
 }
