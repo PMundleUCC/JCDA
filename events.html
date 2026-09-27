@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover upcoming JCDA community events in Jamaica.">
+    <title>Events | JCDA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        
+
+        <div class="nav-bar">
+            <a class="logo" href="index.html">
+                <span class="logo-icon">J</span>
+                <span>
+                    <strong>JCDA</strong>
+                    <small>Jamaica Community Development Association</small>
+                </span>
+            </a>
+
+            <button class="menu-button" id="menu-button">&#9776; Menu</button>
+
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="projects-gallery.html">Projects &amp; Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+       
+        <section class="page-banner">
+            <div class="container">
+                <p class="banner-intro">Connect and participate</p>
+                <h1>Community events</h1>
+                <p>Meet your neighbours, learn new skills and take part in activities that strengthen your community.</p>
+            </div>
+        </section>
+
+      
+        <section class="events">
+            <div class="container">
+                <p class="events-intro">What's happening</p>
+                <h2>Upcoming events</h2>
+
+                
+                <div class="events-filter">
+                    <button class="filter-button active" data-filter="all">All</button>
+                    <button class="filter-button" data-filter="environment">Environment</button>
+                    <button class="filter-button" data-filter="youth">Youth</button>
+                    <button class="filter-button" data-filter="family">Family</button>
+                </div>
+
+                <div class="events-grid">
+                    <article class="event-card" data-category="environment">
+                        <div class="event-date"><strong>24</strong>Oct</div>
+                        <div>
+                            <span class="event-category">Environment</span>
+                            <h3>Gun Boat Clean-Up Day</h3>
+                            <p>Join volunteers as we clean shared spaces. Gloves, tools and refreshments will be provided. Bring your hats!!!</p>
+                            <ul class="event-details">
+                            <li>9:00 a.m. – 03:00 p.m.</li>
+                            <li>Palisadoes Road in Kingston</li>
+                        </ul>
+                        </div>
+                    </article>
+
+                    <article class="event-card" data-category="youth">
+                        <div class="event-date"><strong>05</strong>OCT</div>
+                        <div>
+                            <span class="event-category">Youth</span>
+                            <h3>Youth Digital Skills Workshop</h3>
+                            <p>A practical introduction to online safety, résumé writing and basic digital tools for young people ages 14–19.</p>
+                            <ul class="event-details">
+                                <li>10:00 a.m. – 2:00 p.m.</li>
+                                <li>JCDA Community Centre</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="event-card" data-category="family">
+                        <div class="event-date"><strong>12</strong>OCT</div>
+                        <div>
+                            <span class="event-category">Family</span>
+                            <h3>Family Health and Wellness Fair</h3>
+                            <p>Access free basic health checks, nutrition information and family-friendly wellness activities.</p>
+                            <ul class="event-details">
+                                <li>9:00 a.m. – 3:00 p.m.</li>
+                                <li>National Heroes Park</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="event-card" data-category="environment">
+                        <div class="event-date"><strong>19</strong>OCT</div>
+                        <div>
+                            <span class="event-category">Environment</span>
+                            <h3>Community Garden Volunteer Morning</h3>
+                            <p>Help prepare garden beds, plant seedlings and learn simple techniques for growing food at home.</p>
+                            <ul class="event-details">
+                                <li>7:30 a.m. – 11:00 a.m.</li>
+                                <li>East Kingston Community Garden</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                
+                <p class="no-events hidden" id="no-events">No events match this category.</p>
+            </div>
+        </section>
+
+        
+        <section class="callout">
+            <div class="container">
+                <div>
+                    <p class="callout-intro">Join the action</p>
+                    <h2>Volunteers make every event possible.</h2>
+                </div>
+                <a class="callout-button" href="contact.html">Volunteer With Us</a>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <footer class="site-footer">
+        <div class="container footer-columns">
+            <div>
+                <a class="logo" href="index.html">
+                    <span class="logo-icon">J</span>
+                    <strong>JCDA</strong>
+                </a>
+                <p>Working together for a stronger, safer and more connected Jamaica.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="projects-gallery.html">Projects &amp; Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>
+                    34 Oxford Road, Kingston, Jamaica<br>
+                    <a href="tel:+18761230011">(876) 123-0011</a><br>
+                    <a href="mailto:info@JCDA.org.jm">info@JCDA.org.jm</a>
+                </p>
+            </div>
+        </div>
+        <p class="copyright">&copy; <span id="year">2026</span> Jamaica Community Development Association.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

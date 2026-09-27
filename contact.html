@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the Jamaica Community Development Association or enquire about volunteering and community projects.">
+    <title>Contact | JCDA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        
+
+        <div class="nav-bar">
+            <a class="logo" href="index.html">
+                <span class="logo-icon">J</span>
+                <span>
+                    <strong>JCDA</strong>
+                    <small>Jamaica Community Development Association</small>
+                </span>
+            </a>
+
+            <button class="menu-button" id="menu-button">&#9776; Menu</button>
+
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="projects-gallery.html">Projects &amp; Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="page-banner">
+            <div class="container">
+                <p class="banner-intro">Let's connect</p>
+                <h1>Contact JCDA</h1>
+                <p>Ask a question, volunteer for an activity or tell us about a community need.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container contact-layout">
+
+                <div>
+                    <p class="contact-intro">Reach us</p>
+                    <h2>We would be happy to hear from you.</h2>
+                    <p>Use the form or contact our office directly. We normally respond within two working days.</p>
+
+                    <ul class="contact-list">
+                        <li><strong>Visit</strong>34 Oxford Road, Kingston, Jamaica</li>
+                        <li><strong>Call</strong><a href="tel:+18761230011">(876) 123-0011</a></li>
+                        <li><strong>Email</strong><a href="mailto:info@JCDA.org.jm">info@JCDA.org.jm</a></li>
+                        <li><strong>Office hours</strong>Monday – Friday, 9:00 a.m. – 4:30 p.m.</li>
+                    </ul>
+                </div>
+
+             
+                <div class="contact-form-card">
+                    <h2>Send us a message</h2>
+                    <p>All fields are required.</p>
+
+                    <form id="contact-form" novalidate>
+                        <div class="contact-form-field">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name">
+                            <small class="error" id="name-error"></small>
+                        </div>
+
+                        <div class="contact-form-field">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email">
+                            <small class="error" id="email-error"></small>
+                        </div>
+
+                        <div class="contact-form-field">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                            <small class="error" id="subject-error"></small>
+                        </div>
+
+                        <div class="contact-form-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6"></textarea>
+                            <small class="error" id="message-error"></small>
+                        </div>
+
+                        <button class="send-message-button" type="submit">Send Message</button>
+
+                        <p class="form-message hidden" id="form-message"></p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-columns">
+            <div>
+                <a class="logo" href="index.html">
+                    <span class="logo-icon">J</span>
+                    <strong>JCDA</strong>
+                </a>
+                <p>Working together for a stronger, safer and more connected Jamaica.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="projects-gallery.html">Projects &amp; Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>
+                    34 Oxford Road, Kingston, Jamaica<br>
+                    <a href="tel:+18761230011">(876) 123-0011</a><br>
+                    <a href="mailto:info@JCDA.org.jm">info@JCDA.org.jm</a>
+                </p>
+            </div>
+        </div>
+        <p class="copyright">&copy; <span id="year">2026</span> Jamaica Community Development Association.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
