@@ -8,13 +8,6 @@ if (menuButton) {
 }
 
 
-const yearSpan = document.getElementById("year");
-
-if (yearSpan) {
-    yearSpan.textContent = new Date().getFullYear();
-}
-
-
 const filterButtons = document.querySelectorAll(".filter-button");
 const eventCards = document.querySelectorAll(".event-card");
 const noEventsMessage = document.getElementById("no-events");
@@ -40,8 +33,8 @@ function filterEvents(category) {
     }
 }
 
-filterButtons.forEach(function (selectedCategory) {
-    selectedCategory.addEventListener("click", function () {
+filterButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
        
         filterButtons.forEach(function (categoryButton) {
             categoryButton.classList.remove("active");
@@ -105,7 +98,7 @@ if (contactForm) {
         }
 
         if (formIsValid) {
-            formMessage.textContent = "Thank you, " + name + ". Your message has been recieved.";
+            formMessage.textContent = "Thank you, " + name + ". Your message has been received.";
             formMessage.classList.remove("hidden");
             contactForm.reset();
         } else {
