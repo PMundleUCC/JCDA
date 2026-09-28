@@ -265,7 +265,7 @@ img {
     color: var(--white);
     background-image:
         linear-gradient(to right, rgba(3, 35, 24, 0.95), rgba(3, 35, 24, 0.4)),
-    url("../images/jcda-community.png");
+        url("../images/JCDA-community.png");
     background-size: cover;
     background-position: center;
 }
@@ -293,7 +293,7 @@ img {
     color: var(--white);
     background-image:
         linear-gradient(to right, rgba(3, 35, 24, 0.97), rgba(11, 93, 59, 0.85)),
-        url("../images/jcda-community.png");
+        url("../images/JCDA-community.png");
     background-size: cover;
     background-position: center;
 }
